@@ -3,45 +3,23 @@
 const assert = require('assert');
 
 function forEach(arr, callback) {
-  for(let i=0; i< arr.length; i++){
-    callback(arr[i]);
-  }
+  // Your code here
 }
 
 function map(arr, callback) {
- let x = []
-  for( let i = 0; i < arr.length; i++ ){
- x.push(callback(arr[i]))
- }
- return x;
-
+  // Your code here
 }
 
 function filter(arr, callback) {
-  let x = []
-  for(let y = 0; y < arr.length; y++)
-  { if(callback(arr[y]))
-      x.push(arr[y])
-  }
-  return x
+  // Your code here
 }
 
 function some(arr, callback) {
-    for(let i = 0; i < arr.length; i++){
-      if(callback(arr[i]))
-      return true
- 
-    }
-    return false
+  // Your code here
 }
 
 function every(arr, callback) {
-  for(let i = 0; i < arr.length; i++){
-  if(!callback(arr[i]))
-  return false
-
-} 
-return true
+  // Your code here
 }
 
 if (typeof describe === 'function') {
@@ -123,4 +101,3 @@ if (typeof describe === 'function') {
   console.log('Only run the tests on this one!')
 
 }
-
